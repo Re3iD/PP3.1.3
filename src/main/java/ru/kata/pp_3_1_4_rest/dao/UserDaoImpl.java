@@ -1,5 +1,9 @@
+package ru.kata.pp_3_1_4_rest.dao;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import ru.kata.pp_3_1_4_rest.dao.UserDao;
+import ru.kata.pp_3_1_4_rest.model.User;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

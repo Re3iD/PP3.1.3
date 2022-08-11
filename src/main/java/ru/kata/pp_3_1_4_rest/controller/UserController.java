@@ -1,10 +1,12 @@
-package controller;
+package ru.kata.pp_3_1_4_rest.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import ru.kata.pp_3_1_4_rest.model.User;
+import ru.kata.pp_3_1_4_rest.service.UserService;
 
 
 @Controller

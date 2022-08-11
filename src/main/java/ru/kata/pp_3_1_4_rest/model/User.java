@@ -1,3 +1,5 @@
+package ru.kata.pp_3_1_4_rest.model;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;

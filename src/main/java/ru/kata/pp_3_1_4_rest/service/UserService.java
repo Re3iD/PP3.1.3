@@ -1,3 +1,7 @@
+package ru.kata.pp_3_1_4_rest.service;
+
+import ru.kata.pp_3_1_4_rest.model.User;
+
 import java.util.List;
 
 

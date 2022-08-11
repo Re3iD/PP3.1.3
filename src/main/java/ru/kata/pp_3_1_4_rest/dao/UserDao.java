@@ -1,4 +1,7 @@
+package ru.kata.pp_3_1_4_rest.dao;
+
 import org.springframework.stereotype.Repository;
+import ru.kata.pp_3_1_4_rest.model.User;
 
 import java.util.List;
 

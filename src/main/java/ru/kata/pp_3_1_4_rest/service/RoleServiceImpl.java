@@ -1,6 +1,10 @@
+package ru.kata.pp_3_1_4_rest.service;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import ru.kata.pp_3_1_4_rest.dao.RoleDao;
+import ru.kata.pp_3_1_4_rest.model.Role;
 
 import java.util.HashSet;
 import java.util.List;

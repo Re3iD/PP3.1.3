@@ -1,7 +1,9 @@
-package controller;
+package ru.kata.pp_3_1_4_rest.controller;
 
+import ru.kata.pp_3_1_4_rest.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import ru.kata.pp_3_1_4_rest.service.UserService;
 
 import java.util.List;
 

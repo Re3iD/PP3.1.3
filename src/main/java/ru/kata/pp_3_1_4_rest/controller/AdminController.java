@@ -1,4 +1,4 @@
-package controller;
+package ru.kata.pp_3_1_4_rest.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -6,7 +6,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import ru.kata.spring.boot_security.demo.model.User;
+import ru.kata.pp_3_1_4_rest.model.User;
+import ru.kata.pp_3_1_4_rest.service.RoleService;
+import ru.kata.pp_3_1_4_rest.service.UserService;
+
 
 @Controller
 @RequestMapping("/admin")

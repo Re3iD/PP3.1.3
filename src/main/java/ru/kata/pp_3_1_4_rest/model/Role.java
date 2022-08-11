@@ -1,3 +1,5 @@
+package ru.kata.pp_3_1_4_rest.model;
+
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import org.springframework.security.core.GrantedAuthority;
 
